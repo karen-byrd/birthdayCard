@@ -1,33 +1,30 @@
 body {
     text-align: center;
     font-family: 'Happy Monkey', cursive;
-    background: linear-gradient(#a2d2ff, #EFB0C9);
-    color: #ffffff;
-}
-
-h1, h2, h3, h4, p {
-    text-shadow: 0 0 1px black;
+    background: linear-gradient(#E53F71, #3F1651);
+    color: #F89F5B;
+    text-shadow: 0 0 4px black;
 }
 
 #bff-img {
-    width: 150px;
+    width: 15%;
     border-radius: 50%;
-    border: 6px solid #EFB0C9;
+    border: 6px solid #3f1651;
     margin-bottom: 10px;
 }
 
 #bday-age {
-    background: #EFB0C9;
-    padding: 5px 10px;
-    border-radius: 5px;
-    margin: 5px 0 10px 0;
+    margin: 5px 0 20px 0;
 }
 
 #bday-date {
     margin: 0;
-    background: #EFB0C9;
+}
+
+#bday-date, #bday-age {
+    background: #3f1651;
     padding: 5px 10px;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 #header {
@@ -54,32 +51,42 @@ h1, h2, h3, h4, p {
 
 .gift-img {
     margin: 20px auto;
-    max-width: 400px;
+    width: 400px;
     height: 400px;
-    border: 6px solid white;
+    border: 6px solid #d7a7f4;
     border-radius: 10px;
     background-image: url("images/gift-cover.jpg");
     background-size: cover;
 }
 
-#gift-img-happy:hover {
-    background-image: url("images/happy.gif");
+#gift-img-40:hover {
+    background-image: url("images/begin-at-40.gif");
 }
 
-#gift-img-hot:hover {
-    background-image: url("images/hot.gif");
+#gift-img-girl:hover {
+    background-image: url("images/girl-drinking-glass.gif");
+    height: 600px;
+    background-size: cover;
+    
 }
 
-#gift-img-genius:hover {
-    background-image: url("images/genius.gif");
+#gift-img-beach:hover {
+    background-image: url("images/beach.gif");
 }
 
-#gift-img-badass:hover {
-    background-image: url("images/badass.gif");
+#gift-img-awesome:hover {
+    background-image: url("images/awesome.gif");
 }
 
-#gift-img-cheers:hover {
-    background-image: url("images/cheers.gif");
+#gift-img-party {
+    height: 400px;
+    width: 750px;
+    background-size: cover;
+    background-position: center;
+}
+
+#gift-img-party:hover {
+    background-image: url("images/party.gif");
 }
 
 #footer {
